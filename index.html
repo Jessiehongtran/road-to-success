@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Road To Success</h1>
+        <div 
+            class="parent"
+            style="display: flex; justify-content: space-evenly "
+        >
+            <div class="to-drag">
+                <div 
+                    class="origin"
+                    style="border: 1px solid grey;padding: 40px; width: 300px;"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                >
+                    Patience
+                    <div
+                        id="patience"
+                        style=" background-color: green;  padding: 40px"
+                        draggable="true"
+                        ondragstart="onDragStart(event);"
+                    >
+                        Patience
+                    </div>
+                </div>
+                <div 
+                    class="origin"
+                    style="border: 1px solid grey;padding: 40px; width: 300px; margin-top: 20px"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                >
+                    Persistence
+                    <div
+                        id="persistence"
+                        style=" background-color: red;  padding: 40px"
+                        draggable="true"
+                        ondragstart="onDragStart(event);"
+                    >
+                        Persistence
+                    </div>
+                </div>
+            </div>
+            <div 
+                class="to-drop"
+                style="margin: 0 20px 0 20px"
+            >
+                <div 
+                    class="dropzone"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                    style="border: 1px solid grey; width: 300px; padding: 40px; margin-top: 20px;"
+                >
+                    1
+                </div>
+                <div 
+                    class="dropzone"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                    style="border: 1px solid grey; width: 300px; padding: 40px; margin-top: 20px;"
+                >
+                    2
+                </div>
+                <div 
+                    class="dropzone"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                    style="border: 1px solid grey; width: 300px; padding: 40px; margin-top: 20px;"
+                >
+                    3
+                </div>
+                <div 
+                    class="dropzone"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                    style="border: 1px solid grey; width: 300px; padding: 40px; margin-top: 20px;"
+                >
+                    4
+                </div>
+            </div>
+            <div class="to-drag">
+                <div 
+                    class="origin"
+                    style="border: 1px solid grey;padding: 40px; width: 300px;"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                >
+                    Hard working
+                    <div
+                        id="hardwork"
+                        style=" background-color: aquamarine;  padding: 40px"
+                        draggable="true"
+                        ondragstart="onDragStart(event);"
+                    >
+                        Hard working
+                    </div>
+                </div>
+                <div 
+                    class="origin"
+                    style="border: 1px solid grey;padding: 40px; width: 300px; margin-top: 20px"
+                    ondragover="onDragOver(event);"
+                    ondrop="onDrop(event);"
+                >
+                    Discipline
+                    <div
+                        id="discipline"
+                        style=" background-color: yellow;  padding: 40px"
+                        draggable="true"
+                        ondragstart="onDragStart(event);"
+                    >
+                        Discipline
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
